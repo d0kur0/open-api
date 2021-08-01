@@ -1,9 +1,9 @@
 {
   "name": "@d0kur0/open-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/open-api.common.js",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
