@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>open-api demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./open-api.umd.js"></script>
+
+<link rel="stylesheet" href="./open-api.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: open-api
+  }
+}).$mount('#app')
+</script>
